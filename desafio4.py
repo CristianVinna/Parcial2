@@ -1,6 +1,6 @@
-# Calculadora Simples em Python
+# Calculadora Simples
 
-# Exibe uma mensagem inicial para o usuário
+# Exibe uma mensagem inicial
 print("=== Calculadora Simples ===")
 
 # Solicita ao usuário o primeiro número e converte para float (número decimal)
@@ -9,14 +9,14 @@ num1 = float(input("Digite o primeiro número: "))
 # Solicita ao usuário o segundo número e converte para float
 num2 = float(input("Digite o segundo número: "))
 
-# Exibe as opções de operação disponíveis
+# Mostra as opções de operação disponíveis
 print("Escolha a operação:")
 print("1 - Soma")
 print("2 - Subtração")
 print("3 - Multiplicação")
 print("4 - Divisão")
 
-# Recebe a escolha do usuário
+# Recebe a mensagem do usuário
 operacao = input("Digite o número da operação desejada (+, -, *, /.): ")
 
 # Verifica qual operação foi escolhida pelo usuário
@@ -46,7 +46,7 @@ elif operacao == "/":
         # Exibe o resultado da divisão
         print("Resultado:", resultado)
     else:
-        # Exibe mensagem de erro caso o divisor seja zero
+        # Exibe mensagem de erro se o divisor for zero
         print("Erro: divisão por zero não é permitida.")
 
 else:
