@@ -7,19 +7,19 @@ nomes = []
 nome1 = input("Digite o primeiro nome: ")  # input recebe o nome digitado
 nomes.append(nome1)  # adiciona o nome na lista
 
-# Pede o segundo nome ao usuário
+# Pede o segundo nome
 nome2 = input("Digite o segundo nome: ")  # recebe o segundo nome
 nomes.append(nome2)  # adiciona na lista
 
-# Pede o terceiro nome ao usuário
+# Pede o terceiro 
 nome3 = input("Digite o terceiro nome: ")  # recebe o terceiro nome
 nomes.append(nome3)  # adiciona na lista
 
-# Pede o quarto nome ao usuário
+# Pede o quarto nome 
 nome4 = input("Digite o quarto nome: ")  # recebe o quarto nome
 nomes.append(nome4)  # adiciona na lista
 
-# Pede o quinto nome ao usuário
+# Pede o quinto nome 
 nome5 = input("Digite o quinto nome: ")  # recebe o quinto nome
 nomes.append(nome5)  # adiciona na lista
 
